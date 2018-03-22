@@ -1,3 +1,5 @@
+import-module remotedesktop
+
 $connectionbroker="rdconnectionbroker.domain.com"
 
 $rdSessions=Get-RDUserSession -ConnectionBroker $connectionBroker
